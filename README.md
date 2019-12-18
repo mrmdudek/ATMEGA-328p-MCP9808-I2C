@@ -4,7 +4,7 @@ Simple library to MCP9808 over I2C. Implemented 2 functions (read resolution and
 Synchronous Communication System project for laboratory exercises of Electronic Systems (SELE) course on 
 Faculty of Engineering of University of Porto (FEUP).
 
-Written in Visual Studio Code with PIO
+Written in Visual Studio Code with PIO,
 Tested 11.12.2019
 
 
