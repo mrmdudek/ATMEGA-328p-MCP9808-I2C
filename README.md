@@ -31,7 +31,7 @@ Function read resolution:
 - start the communication by send MCP9808 address and 0 (command to write to device), if acknowledge
 	- write frame with function to read resolution (0x08) 
 	- stop communication
-- start the communication by send MCP9808 address and 1 (command to read from device), if acknowledge
+	- start the communication by send MCP9808 address and 1 (command to read from device), if acknowledge
 	- read frame without acknowledge (because it's only one frame and last frame don't need to be with acknowledge)
 	- stop communication
 	- convert received data (meanings of received bits are in MCP9808 datasheet)
@@ -41,7 +41,7 @@ Function read resolution:
 - start the communication by send MCP9808 address and 0 (command to write to device), if acknowledge
 	- write frame with function to read ambient temperature (0x05) 
 	- stop communication
-- start the communication by send MCP9808 address and 1 (command to read from device), if acknowledge
+	- start the communication by send MCP9808 address and 1 (command to read from device), if acknowledge
 	- read frame with acknowledge (because it's first frame and there will be more frame(s))
 	- read frame without acknowledge (because it's last frame)
 	- stop communication
