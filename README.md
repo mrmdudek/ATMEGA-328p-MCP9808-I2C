@@ -37,7 +37,7 @@ Function read resolution:
 	- convert received data (meanings of received bits are in MCP9808 datasheet)
 	- send data via uart
 	
-Function read resolution:  
+Function read temperature:  
 - start the communication by send MCP9808 address and 0 (command to write to device), if acknowledge
 	- write frame with function to read ambient temperature (0x05) 
 	- stop communication
@@ -84,3 +84,6 @@ i2c_stop:
 
 - transmit STOP condition
 
+# PCB
+
+https://drive.google.com/open?id=1FrXvOgUvJv1mWZtRX9E2b3NrKS9GoCEU
