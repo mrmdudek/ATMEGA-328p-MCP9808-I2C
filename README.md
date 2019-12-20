@@ -84,6 +84,6 @@ i2c_stop:
 
 - transmit STOP condition
 
-# PCB
+## PCB
 
 https://drive.google.com/open?id=1FrXvOgUvJv1mWZtRX9E2b3NrKS9GoCEU
